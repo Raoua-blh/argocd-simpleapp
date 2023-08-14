@@ -10,7 +10,7 @@
     # change host as per your ingress
     - host: sample.docker.internal
       http:
-        paths:
+        paths: /*
         - backend:
             serviceName: sample-service
             servicePort: 80
